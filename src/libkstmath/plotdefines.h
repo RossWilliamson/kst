@@ -25,7 +25,8 @@ enum AxisInterpretationType {
   AXIS_INTERP_MJD,
   AXIS_INTERP_RJD,
   AXIS_INTERP_AIT,
-  AXIS_INTERP_EXCEL};
+  AXIS_INTERP_EXCEL,
+  AXIS_INTERP_JUNO};
 
 enum AxisDisplayType { 
   AXIS_DISPLAY_YEAR,
@@ -56,6 +57,7 @@ const AxisInterpretation AxisInterpretations[] = {
   { QT_TRANSLATE_NOOP("AxisTab", "Julian Date"), AXIS_INTERP_JD },
   { QT_TRANSLATE_NOOP("AxisTab", "Modified Julian Date"), AXIS_INTERP_MJD },
   { QT_TRANSLATE_NOOP("AxisTab", "Reduced Julian Date"), AXIS_INTERP_RJD },
+  { QT_TRANSLATE_NOOP("AxisTab", "Juno Ephem"), AXIS_INTERP_JUNO },
   { QT_TRANSLATE_NOOP("AxisTab", "International Atomic Time (TAI)"), AXIS_INTERP_AIT },
   { QT_TRANSLATE_NOOP("AxisTab", "Excel time (Windows)"), AXIS_INTERP_EXCEL }
 };
